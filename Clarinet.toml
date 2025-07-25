@@ -1,0 +1,17 @@
+[project]
+name = "NCP-Project"
+description = "A simple contract for making public pledges (NCP)."
+authors = ["You"]
+telemetry = true
+requirements = []
+
+[contracts.NCP]
+path = "contracts/NCP.clar"
+depends_on = []
+
+[repl]
+costs_version = 2
+parser_version = 2
+
+[testing]
+check_checker = true
